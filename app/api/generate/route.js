@@ -1,3 +1,5 @@
+export const runtime = 'nodejs';
+
 export async function POST(request) {
   const apiKey = process.env.OPENAI_API_KEY;
 
